@@ -41,6 +41,14 @@ $app->singleton(
     App\Exceptions\Handler::class
 );
 
+// Daily log files
+$app->configureMonologUsing(function (Monolog\Logger $monolog) {
+    $filename = storage_path('logs/laravel-' . php_sapi_name() . '.log');
+    $handler = new Monolog\Handler\RotatingFileHandler($filename);
+    $handler->setFormatter(new \Monolog\Formatter\LineFormatter(null, null, true));
+    $monolog->pushHandler($handler);
+});
+
 /*
 |--------------------------------------------------------------------------
 | Return The Application
