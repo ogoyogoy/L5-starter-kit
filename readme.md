@@ -1,17 +1,19 @@
-# L5 Starter Kit
+# Laravel 5.2 Starter Kit
 
-*** Work In Progress ***
+***Work In Progress***
 
 ## Includes
-- [ ] Sentinel
+- [x] Sentinel
 - [ ] Intervention Image
 - [ ] Bootstrap
 - [ ] jQuery
 - [ ] Gulp
 - [ ] FontAwesome
 
-## Getting Started
+## Changes & Structures
+- Models moved to `app/Models`
 
+## Getting Started
 
 ## Laravel 4 Version
 Get Laravel 4 version [here](https://github.com/benhanks040888/L4-Starter)
