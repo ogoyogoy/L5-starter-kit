@@ -6,10 +6,10 @@
 - [x] Sentinel
 - [x] Intervention Image
 - [x] Debugbar
-- [ ] Bootstrap
-- [ ] jQuery
+- [x] jQuery
+- [x] Bootstrap
+- [x] FontAwesome
 - [ ] Gulp
-- [ ] FontAwesome
 
 ## Changes & Structures
 - Models moved to `app/Models`
