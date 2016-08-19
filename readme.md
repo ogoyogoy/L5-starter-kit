@@ -13,8 +13,10 @@
 
 ## Changes & Structures
 - Models moved to `app/Models`
+- Daily log files
 
 ## Getting Started
+
 
 ## Laravel 4 Version
 Get Laravel 4 version [here](https://github.com/benhanks040888/L4-Starter)
