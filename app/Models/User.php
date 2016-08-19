@@ -2,9 +2,10 @@
 
 namespace App\Models;
 
-use Illuminate\Foundation\Auth\User as Authenticatable;
+// use Illuminate\Foundation\Auth\User as Authenticatable;
+use Cartalyst\Sentinel\Users\EloquentUser as EloquentUser;
 
-class User extends Authenticatable
+class User extends EloquentUser
 {
     /**
      * The attributes that are mass assignable.
