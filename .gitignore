@@ -1,6 +1,15 @@
+# Back-end
 /vendor
-/node_modules
 /public/storage
 Homestead.yaml
 Homestead.json
+composer.phar
+composer.lock
 .env
+
+# Front-end
+/node_modules
+
+# OS specified
+.DS_Store
+Thumbs.db
